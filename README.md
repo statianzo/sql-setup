@@ -52,7 +52,7 @@ Heroku Postgres :: Database | View Credentials | Credentials for Connecting
 
 ## SQL Tabs
 
-SQL Tabs is a cross-platform database client that will allow you to execute SQL against your postgres server.
+SQL Tabs is a cross-platform database client that will allow you to execute SQL commands to your hosted postgres database.
 
 ### Install
 
@@ -77,4 +77,6 @@ Run a `select 'Hello World';` query against the database to ensure you're connec
 
 ![SQL Tabs Hello World](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_helloworld.png)
 
-Congratulations! You've successfully set up a hosted Postgres service on Heroku. You can now continue using SQL Tabs to alter your hosted database. Have fun!
+### Finished
+
+Congratulations! You've successfully set up a hosted Postgres database on Heroku. You can now connect to this database using SQL Tabs and write database queries to create and update content on your hosted database. Have fun!
