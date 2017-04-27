@@ -28,12 +28,13 @@ Create New App      |  Add a Name
 ### Provision the Heroku Postgres add-on
 
 At this point, you're in the dashboard for the project you just created. Depending on the size of your browser window, you will see either a "Resources" tab or a set of seven icons near the top of the window. Select the resources tab if you see text options. If you see icons, select the icon with three horizontal lines.
-On the next screen, type "postgres" in the "Add-ons" search field and select "Heroku Postgres" from the list.
-Provision the Hobby Dev free tier database.
 
 Select the "Resources" Tab | Or the Resources Icon 
 :-------------------------:|:----------------------:
 ![Heroku Resources Tab](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_tab.png)  |  ![Heroku Resources Icon](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_icon.png)
+
+On the next screen, type "postgres" in the "Add-ons" search field and select "Heroku Postgres" from the list.
+Provision the Hobby Dev free tier database.
 
 Select Heroku Postgres | Click Provision
 :----------------------:|:----------------------:
@@ -66,12 +67,14 @@ Download the version for your OS from http://www.sqltabs.com and install accordi
 
 ### Connect to Postgres
 
-Copy the **URI** from your Heroku Postgres credentials. Paste it into the connection string input at the top of SQL Tabs and **IMPORTANT: append `?ssl=true` to the end.**
+Copy the **URI** from your Heroku Postgres credentials. Paste it into the connection string input at the top of SQL Tabs and **THIS IS IMPORTANT:** append `?ssl=true` to the end.
 
 ![SQL Tabs URI](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_uri.png)
 
 ### Test
 
-Run a `select 'Hello World'` query against the database to ensure you're connected. Execute the query using ⌘-R or Ctrl-R. If the database responds with Hello World, you're good to go.
+Run a `select 'Hello World';` query against the database to ensure you're connected. Execute the query using ⌘-R or Ctrl-R. If the database responds with a column that contains 'hello world', you're good to go.
 
 ![SQL Tabs Hello World](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_helloworld.png)
+
+Congratulations! You've successfully set up a hosted Postgres service on Heroku. You can now continue using SQL Tabs to alter your hosted database. Have fun!
