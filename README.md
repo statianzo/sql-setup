@@ -18,7 +18,7 @@ Sign Up Page           |  Email Confirmation
 ### Create an App
 
 On your first visit to the dashboard, click the **Create New App** button.
-From there, specify a name if you'd like and click **Create App**
+From there, specify a name (or leave blank and Heroku will generate a name). Click **Create App**
 
 Create New App      |  Add a Name  
 :-------------------------:|:-------------------------:
@@ -32,7 +32,7 @@ On the next screen, type "postgres" in the "Add-ons" search field and select "He
 Provision the Hobby Dev free tier database.
 
 Select the "Resources" Tab | Or the Resources Icon | Select Heroku Postgres | Click Provision
-:-------------------------:|:----------------------|::----------------------|::----------------------:
+:-------------------------:|:----------------------:|:----------------------:|:----------------------:
 ![Heroku Resources Tab](https://github.com/statianzo/sql-setup/raw/master/images/heroku_aftercreate.png)  |  ![Heroku Resources Icon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_aftercreate.png) | ![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
 
 
