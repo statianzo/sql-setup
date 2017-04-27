@@ -31,9 +31,13 @@ At this point, you're in the dashboard for the project you just created. Dependi
 On the next screen, type "postgres" in the "Add-ons" search field and select "Heroku Postgres" from the list.
 Provision the Hobby Dev free tier database.
 
-Select the "Resources" Tab | Or the Resources Icon | Select Heroku Postgres | Click Provision
-:-------------------------:|:----------------------:|:----------------------:|:----------------------:
-![Heroku Resources Tab](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_tab.png)  |  ![Heroku Resources Icon](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_icon.png) | ![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
+Select the "Resources" Tab | Or the Resources Icon 
+:-------------------------:|:----------------------:
+![Heroku Resources Tab](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_tab.png)  |  ![Heroku Resources Icon](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_icon.png)
+
+Select Heroku Postgres | Click Provision
+:----------------------:|:----------------------:
+![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
 <br/>
 
 ### View database credentials
