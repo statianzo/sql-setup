@@ -10,7 +10,6 @@ https://www.heroku.com
 
 On the Heroku website, click the **Sign up for free** button. After submitting your details you'll be sent a confirmation email. Follow the link found in this email and set your password.
 
-Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![Heroku Homepage](https://github.com/statianzo/sql-setup/raw/master/images/heroku_homepage.png)  |  ![Heroku Signup](https://github.com/statianzo/sql-setup/raw/master/images/heroku_signup.png)
 
