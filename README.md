@@ -33,7 +33,7 @@ Provision the Hobby Dev free tier database.
 
 Select the "Resources" Tab | Or the Resources Icon | Select Heroku Postgres | Click Provision
 :-------------------------:|:----------------------:|:----------------------:|:----------------------:
-![Heroku Resources Tab](https://github.com/statianzo/sql-setup/raw/master/images/heroku_resources_tab.jpg)  |  ![Heroku Resources Icon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_resources_icon.jpg) | ![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
+![Heroku Resources Tab](https://github.com/statianzo/sql-setup/raw/master/images/heroku_resources_tab.png)  |  ![Heroku Resources Icon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_resources_icon.png) | ![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
 
 
 ### View database credentials
