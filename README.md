@@ -2,17 +2,18 @@
 
 ## Heroku
 
-Heroku is a service that offers a simple web application hosting with a lots of extras. We'll use their hosted Postgres service to quickly create a database instance.
+Heroku is a service that offers simple web application hosting with many extra features. We'll use their hosted Postgres service to quickly create a database instance.
 
 https://www.heroku.com
 
 ### Sign up
 
-Click the **Sign up for free** button. Give them your details and watch for an email. Follow the link and you'll set your password.
+On the Heroku website, click the **Sign up for free** button. After submitting your details you'll be sent a confirmation email. Follow the link found in this email and set your password.
 
-![Heroku Homepage](https://github.com/statianzo/sql-setup/raw/master/images/heroku_homepage.png)
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![Heroku Homepage](https://github.com/statianzo/sql-setup/raw/master/images/heroku_homepage.png)  |  ![Heroku Signup](https://github.com/statianzo/sql-setup/raw/master/images/heroku_signup.png)
 
-![Heroku Signup](https://github.com/statianzo/sql-setup/raw/master/images/heroku_signup.png)
 
 ### Create an App
 
