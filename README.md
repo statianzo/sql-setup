@@ -13,7 +13,7 @@ On the Heroku website, click the **Sign up for free** button. After submitting y
 Sign Up Page           |  Email Confirmation
 :-------------------------:|:-------------------------:
 ![Heroku Homepage](https://github.com/statianzo/sql-setup/raw/master/images/heroku_homepage.png)  |  ![Heroku Signup](https://github.com/statianzo/sql-setup/raw/master/images/heroku_signup.png)
-
+<br/>
 
 ### Create an App
 
@@ -23,7 +23,7 @@ From there, specify a name (or leave blank and Heroku will generate a name). Cli
 Create New App      |  Add a Name  
 :-------------------------:|:-------------------------:
 ![Heroku Create App](https://github.com/statianzo/sql-setup/raw/master/images/heroku_dashboard.png)  |  ![Heroku Add Name](https://github.com/statianzo/sql-setup/raw/master/images/heroku_newapp.png)
-
+<br/>
 
 ### Provision the Heroku Postgres add-on
 
@@ -34,17 +34,16 @@ Provision the Hobby Dev free tier database.
 Select the "Resources" Tab | Or the Resources Icon | Select Heroku Postgres | Click Provision
 :-------------------------:|:----------------------:|:----------------------:|:----------------------:
 ![Heroku Resources Tab](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_tab.png)  |  ![Heroku Resources Icon](https://github.com/barrycann/sql-setup/raw/master/images/heroku_resources_icon.png) | ![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
-
+<br/>
 
 ### View database credentials
 
 Select the **Heroku Postgres :: Database** add-on from the list. On the database page, click the **View Credentials** button. You will be presented with the credentials necessary to connect to the Postgres instance.
 
-![Heroku Go To Postgres](https://github.com/statianzo/sql-setup/raw/master/images/heroku_gotopg.png)
-
-![Heroku Postgres Dashboard](https://github.com/statianzo/sql-setup/raw/master/images/heroku_pgdashboard.png)
-
-![Heroku Postgres Credentials](https://github.com/statianzo/sql-setup/raw/master/images/heroku_credentials.png)
+Heroku Postgres :: Database | View Credentials | Credentials for Connecting
+:-------------------------:|:---------------------:|:----------------------:
+![Heroku Go To Postgres](https://github.com/statianzo/sql-setup/raw/master/images/heroku_gotopg.png) | ![Heroku Postgres Dashboard](https://github.com/statianzo/sql-setup/raw/master/images/heroku_pgdashboard.png) | ![Heroku Postgres Credentials](https://github.com/statianzo/sql-setup/raw/master/images/heroku_credentials.png)
+<br/>
 
 ## SQL Tabs
 
