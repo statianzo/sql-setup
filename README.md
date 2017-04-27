@@ -10,6 +10,7 @@ https://www.heroku.com
 
 On the Heroku website, click the **Sign up for free** button. After submitting your details you'll be sent a confirmation email. Follow the link found in this email and set your password.
 
+Sign Up Page           |  Email Confirmation
 :-------------------------:|:-------------------------:
 ![Heroku Homepage](https://github.com/statianzo/sql-setup/raw/master/images/heroku_homepage.png)  |  ![Heroku Signup](https://github.com/statianzo/sql-setup/raw/master/images/heroku_signup.png)
 
@@ -19,21 +20,21 @@ On the Heroku website, click the **Sign up for free** button. After submitting y
 On your first visit to the dashboard, click the **Create New App** button.
 From there, specify a name if you'd like and click **Create App**
 
-![Heroku Dashboard](https://github.com/statianzo/sql-setup/raw/master/images/heroku_dashboard.png)
+Create New App      |  Add a Name  
+:-------------------------:|:-------------------------:
+![Heroku Create App](https://github.com/statianzo/sql-setup/raw/master/images/heroku_dashboard.png)  |  ![Heroku Add Name](https://github.com/statianzo/sql-setup/raw/master/images/heroku_newapp.png)
 
-![Heroku Create App](https://github.com/statianzo/sql-setup/raw/master/images/heroku_newapp.png)
 
 ### Provision the Heroku Postgres add-on
 
-After your app is created, go to the Resources section.
-Search for an addon named "postgres", and select "Heroku Postgres" from the list.
+At this point, you're in the dashboard for the project you just created. Depending on the size of your browser window, you will see either a "Resources" tab or a set of seven icons near the top of the window. Select the resources tab if you see text options. If you see icons, select the icon with three horizontal lines.
+On the next screen, type "postgres" in the "Add-ons" search field and select "Heroku Postgres" from the list.
 Provision the Hobby Dev free tier database.
 
-![Heroku App Dashboard](https://github.com/statianzo/sql-setup/raw/master/images/heroku_aftercreate.png)
+Select the "Resources" Tab | Or the Resources Icon | Select Heroku Postgres | Click Provision
+:-------------------------:|:----------------------|::----------------------|::----------------------:
+![Heroku Resources Tab](https://github.com/statianzo/sql-setup/raw/master/images/heroku_aftercreate.png)  |  ![Heroku Resources Icon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_aftercreate.png) | ![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png) | ![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
 
-![Heroku Search For Addon](https://github.com/statianzo/sql-setup/raw/master/images/heroku_addon.png)
-
-![Heroku Povision Database](https://github.com/statianzo/sql-setup/raw/master/images/heroku_provision.png)
 
 ### View database credentials
 
