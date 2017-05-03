@@ -58,12 +58,14 @@ SQL Tabs is a cross-platform database client that will allow you to execute SQL 
 
 Download the version for your OS from http://www.sqltabs.com and install accordingly
 
-- OS X: unzip the download and put it in your Applications
+- Mac: unzip the download and put it in your Applications. Double click. If you
+  get a security warning, open System Preferences > Security and click *Open Anyway*
 - Windows: unzip the download and place the folder somewhere easy to access, like your desktop. Run **sqltabs.exe**.
 - Linux: gunzip the tarball and execute `./sqltabs`
 
-
-![SQL Tabs Download](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_download.png)
+SQL Tabs Download | Mac Warning | Mac Security
+:-------------------------:|:---------------------:|:----------------------:
+![SQL Tabs Download](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_download.png) | ![SQL Tabs Download](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_warning.png) | ![SQL Tabs Security](https://github.com/statianzo/sql-setup/raw/master/images/sqltabs_security.png) 
 
 ### Connect to Postgres
 
